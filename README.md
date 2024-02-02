@@ -49,7 +49,7 @@ Utility functions
 ### Bitcoin
 Fetching and placing a limit to BTC price in US dollars:
  ### `btc now` 
- Will display current bitcoin price, bitcoin price is fetched every 10 seconds in goroutine
+ Will display current bitcoin price, bitcoin price is fetched every 10 seconds in goroutine asynchronously
 
 ### `btc limit <NUMBER>`
 Sets a limit to BTC price, when limit is reached sends a notifying message to user, replace <NUMBER> with desired price
